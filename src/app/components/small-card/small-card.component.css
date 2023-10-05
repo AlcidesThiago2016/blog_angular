@@ -1,6 +1,9 @@
 .container__small-card{
-  border: 1px solid white;
   width: 800px;
+  margin-bottom: 15px;
+}
+
+.container__small-card-content{
   display: flex;
   flex-direction: row;
 }
@@ -15,4 +18,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.container__small-card__separator{
+  margin-top: 10px;
 }
