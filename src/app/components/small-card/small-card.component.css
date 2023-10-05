@@ -12,12 +12,17 @@
   width: 200px;
   min-width: 200px;
   margin-right: 20px;
+  border-radius: 15px;
 }
 
 .small-card__title{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.small-card__title > h1{
+  text-align: justify;
 }
 
 .container__small-card__separator{
